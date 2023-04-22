@@ -12,13 +12,11 @@ public class Question2 extends Applet {
         choice.addItem("Red");
         choice.addItem("Blue");
         choice.addItem("Green");
-       // choice.addItemListener(this);
         add(choice);
     }
 
     public void paint(Graphics g) {
         String colour = choice.getSelectedItem();
-        //g.add(choice);
         int R=0,G=0,B=0;
         if(colour=="Red")
             R=100;
